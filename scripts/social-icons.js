@@ -23,7 +23,7 @@
 
       $(".icon-facebook").on("click", function(){
 
-        var picture = "https://cnsmaryland.org/interactives/spring-2019/baltimore-climate-temperature-health/blog/fb-thumb.png"; //Picture URL
+        var picture = "https://cnsmaryland.org/interactives/spring-2019/baltimore-climate-temperature-health/blog/images/fb-thumb.png"; //Picture URL
         var title = "Baltimore Climate and Health Project"; //Post title
         var description = "Extreme temperatures pose a serious, long-term health threat for people with chronic medical conditions — and climate change is making the problem worse."; //Post description
         var url = "https://cnsmaryland.org/interactives/spring-2019/baltimore-climate-temperature-health/blog"; //Interactive URL
