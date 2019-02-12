@@ -1,0 +1,115 @@
+/* Base styles */
+
+#container {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+  padding:20px 20px 20px 20px;
+}
+
+/* Nav Bar styles */
+
+#nav-logo {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#logo {
+  width:200px;
+}
+
+/* Headline styles */
+
+#headline-container {
+  width:80%;
+  min-width:300px;
+}
+
+.headline {
+  font-family: "Poppins", sans-serif;
+  font-size:75px;
+  font-weight:700;
+  line-height: 70px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.headline img {
+  vertical-align: middle;
+  width: 60px;
+  display: inline-block;
+  position: relative;
+  bottom: 7px;
+  margin-right: 10px;
+}
+
+.subhead {
+  font-family: "Poppins", sans-serif;
+  font-size:20px;
+  font-weight:700;
+  color: #333333;
+}
+
+.blue {
+  color: #57b1e5;
+}
+
+.scrolling-box {
+  scroll-behavior: smooth;
+}
+
+.involved {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #57b1e5;
+  border-color: #57b1e5;
+}
+
+.buttoncontainer {
+  margin-top: 20px;
+}
+
+.chatter {
+  font-family: "PT Serif", serif;
+  font-size:14px;
+}
+
+/* Social icons */
+
+.icon-facebook, .icon-twitter {
+  padding:10px;
+  cursor: pointer;
+  color: #991b1e;
+}
+
+.icon-facebook:hover, .icon-twitter:hover {
+  color: #fbd603;
+}
+
+/* Links */
+
+a:link {
+  color: #991b1e;
+}
+
+a:hover {
+  color: #fbd603;
+}
+
+a:visited {
+  color: #666666;
+}
+
+/* End Base styles */
+
+@media screen and (max-width: 768px) {
+  .headline {
+    font-family: "Poppins", sans-serif;
+    font-size:65px;
+    font-weight:700;
+    line-height: 60px;
+    color: #333333;
+    margin-bottom: 40px;
+  }
+}
