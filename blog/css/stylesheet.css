@@ -4,6 +4,7 @@
   width:100%;
   max-width:1000px;
   margin:0 auto;
+  padding:40px 20px 20px 20px;
 }
 
 /* Nav Bar styles */
@@ -107,6 +108,16 @@ a:visited {
 .blue {
   color: #57b1e5;
 }
+
+footer {
+	overflow:hidden;
+	}
+
+#sponsor {
+	opacity: 0.9;
+	padding: 7px 7px 7px 7px;
+	overflow:hidden;
+	}
 
 /* End Base styles */
 

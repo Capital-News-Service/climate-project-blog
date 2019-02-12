@@ -5,6 +5,7 @@
   max-width:1100px;
   margin:0 auto;
   overflow:auto;
+  padding:40px 20px 20px 20px;
 }
 
 /* Nav Bar styles */
@@ -61,9 +62,9 @@ figcaption {
 
 .headline {
   font-family: "Poppins", sans-serif;
-  font-size:3em;
+  font-size:2em;
   font-weight:700;
-  line-height: 70px;
+  line-height: 120%;
   color: #333333;
   margin-bottom: 40px;
 }
@@ -108,6 +109,16 @@ a:visited {
 .blue {
   color: #57b1e5;
 }
+
+footer {
+	overflow:hidden;
+	}
+
+#sponsor {
+	opacity: 0.9;
+	padding: 7px 7px 7px 7px;
+	overflow:hidden;
+	}
 
 
 /* End Base styles */

@@ -4,7 +4,7 @@
   width:100%;
   max-width:1000px;
   margin:0 auto;
-  padding:20px 20px 20px 20px;
+  padding:40px 20px 20px 20px;
 }
 
 /* Nav Bar styles */
@@ -17,13 +17,16 @@
 
 #logo {
   width:200px;
+    border-style:hidden;
+	border-radius:5px;
+	border-width:1px;
 }
 
 /* Headline styles */
 
 #headline-container {
-  width:80%;
-  min-width:300px;
+  width:95%;
+  min-width:270px;
 }
 
 .headline {
@@ -55,6 +58,34 @@
   color: #57b1e5;
 }
 
+
+#jumbo {
+	float:right;
+	max-width:200px;
+	width:100%;
+	height:auto;
+	text-align:center;
+	border-style:hidden;
+	border-radius:5px;
+	border-width:1px;
+	margin-left: 2em;
+	overflow:hidden;
+	padding: 5px 5px 0px 5px;
+	}
+	
+#wjumbo {
+	max-width:1000px;
+	width:100%;
+	height:auto;
+	text-align:center;
+	border-style:hidden;
+	border-radius:5px;
+	border-width:1px;
+	overflow:hidden;
+	padding: 5px 5px 0px 5px;
+	}
+
+
 .scrolling-box {
   scroll-behavior: smooth;
 }
@@ -69,6 +100,13 @@
 .buttoncontainer {
   margin-top: 20px;
 }
+
+/*
+#center {
+	text-align: center;
+	padding:40px 50px 40px 50px;
+	}
+	*/
 
 .chatter {
   font-family: "PT Serif", serif;
@@ -86,6 +124,15 @@
 .icon-facebook:hover, .icon-twitter:hover {
   color: #fbd603;
 }
+
+footer {
+background-color: #f0f0f0;
+}
+
+#sponsor {
+	opacity: 0.9;
+	padding: 7px 7px 7px 7px;
+	}
 
 /* Links */
 
@@ -112,4 +159,17 @@ a:visited {
     color: #333333;
     margin-bottom: 40px;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+    #jumbo {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #wjumbo {
+        display: none;
+    }
 }
