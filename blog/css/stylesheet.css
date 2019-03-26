@@ -56,7 +56,6 @@
   position: relative;
   bottom: 7px;
   margin-right: 10px;
-	max-width: 100%;
     height: auto;
 }
 
@@ -130,4 +129,18 @@ footer {
     color: #333333;
     margin-bottom: 40px;
   }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .headline img {
+    width:200px;
+  }
+
+.bg-light {
+  background-color:#fff !important;
+}
+
 }
